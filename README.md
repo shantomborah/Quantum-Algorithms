@@ -5,11 +5,10 @@ Objectives:
 2) To compile a comprehensive list of the major quantum algorithms and protocols that I am familiar with
 
 Next steps:
-1) Grover's Algorithm
-2) Linear Systems
-3) VQE
-4) QAOA
-5) RSA Eavesdropping
-6) Quantum Error Correction
-7) Quantum State Tomography
-8) Communication Protocols
+1) Linear Systems
+2) VQE
+3) QAOA
+4) RSA Eavesdropping
+5) Quantum Error Correction
+6) Quantum State Tomography
+7) Communication Protocols
