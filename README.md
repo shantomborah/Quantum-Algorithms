@@ -5,9 +5,6 @@ Objectives:
 2) To compile a comprehensive list of the major quantum algorithms and protocols that I am familiar with
 
 Next steps:
-1) Quantum Error Correction
-2) Quantum State Tomography
-3) RSA Eavesdropping
-4) Linear Systems - HHL Algorithm
-5) Variational Quantum Eigensolver
-6) Quantum Approximate Optimization Algorithm
+1) Quantum State Tomography
+2) Variational Quantum Eigensolver
+3) Quantum Approximate Optimization Algorithm
