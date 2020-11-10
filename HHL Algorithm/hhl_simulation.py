@@ -1,5 +1,5 @@
 import numpy as np
-import components as cmp
+import hhl_components as cmp
 import matplotlib.pyplot as plt
 
 from qiskit import QuantumCircuit
