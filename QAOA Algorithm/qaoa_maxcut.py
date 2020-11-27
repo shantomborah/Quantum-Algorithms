@@ -36,7 +36,7 @@ for i in range(len(E)):
     clauses.append("".join(clause))
 
 # Execute QAOA
-qaoa = QAOA(clauses, 3)
+qaoa = QAOA(clauses, 6)
 z = qaoa.sample(vis=True)
 print('Sampled Output: ' + str(z))
 print('Optimized Cost: ' + str(qaoa.cost(z)))
