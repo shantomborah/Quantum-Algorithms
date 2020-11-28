@@ -25,7 +25,7 @@ An implementation of Schumacher's Block Coding Scheme.
 Note: References for the Jupyter Notebooks in Standard Algorithms may be found within the respective Notebooks.
 1. Hector Abraham et al. _Qiskit: An Open-source Framework for Quantum Computing_. 2019. doi: 10.5281/zenodo.2562110.
 2. Yudong Cao et al. "Quantum circuit design for solving linear systems of equations". In: _Molecular Physics_ 110.15-16 (2012), pp. 1675-1680.
-3. David Deutsch. "Quantum theory, the Church{Turing principle and the universal quantum computer". In: _Proceedings of the Royal Society of London. A. Mathematical and Physical Sciences_ 400.1818 (1985), pp. 97-117.
+3. David Deutsch. "Quantum theory, the Church-Turing principle and the universal quantum computer". In: _Proceedings of the Royal Society of London. A. Mathematical and Physical Sciences_ 400.1818 (1985), pp. 97-117.
 4. David Deutsch and Richard Jozsa. "Rapid solution of problems by quantum computation". In: _Proceedings of the Royal Society of London. Series A: Mathematical and Physical Sciences_ 439.1907 (1992), pp. 553-558.
 5. Edward Farhi, Jeffrey Goldstone, and Sam Gutmann. "A quantum approximate optimization algorithm". In: _arXiv preprint arXiv:1411.4028_ (2014).
 6. Laszlo Gyongyosi, Sandor Imre, and Hung Viet Nguyen. "A survey on quantum channel capacities". In: _IEEE Communications Surveys & Tutorials_ 20.2 (2018), pp. 1149-1205.
