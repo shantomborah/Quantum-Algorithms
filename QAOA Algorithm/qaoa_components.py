@@ -36,7 +36,6 @@ class QAOA:
         self.beta_val = list(np.random.rand(p))
 
         # Create hamiltonians and variational circuit
-        self.B = np.eye(2 ** self.n)[::-1]
         self.C = np.diag([self.cost(z) for z in range(2 ** self.n)])
         self.varckt = self.build_varckt()
         self.optimize()
@@ -102,7 +101,7 @@ class QAOA:
             eC = QuantumCircuit(self.n, name='$U(C,\\gamma_' + str(i + 1) + ')$')
             eC.append(HamiltonianGate(self.C, self.gamma[i]), range(self.n))
             eB = QuantumCircuit(self.n, name='$U(B,\\beta_' + str(i + 1) + ')$')
-            eB.append(HamiltonianGate(self.B, self.beta[i]), range(self.n))
+            eB.rx(2*self.beta[i], range(self.n))
             circ.append(eC.to_gate(), range(self.n))
             circ.append(eB.to_gate(), range(self.n))
         circ.measure_all()
